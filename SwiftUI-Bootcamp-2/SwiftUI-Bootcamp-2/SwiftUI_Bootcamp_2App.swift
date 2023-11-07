@@ -13,7 +13,7 @@ struct SwiftUI_Bootcamp_2App: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MagnificationGestureBootcamp()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

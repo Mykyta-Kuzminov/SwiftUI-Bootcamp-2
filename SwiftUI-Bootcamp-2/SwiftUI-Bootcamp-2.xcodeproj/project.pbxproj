@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE46F1282AFAD5F1002B04E3 /* MagnificationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46F1272AFAD5F1002B04E3 /* MagnificationGestureBootcamp.swift */; };
 		CE47AAF72AF9547A00D9BD7E /* SwiftUI_Bootcamp_2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE47AAF62AF9547A00D9BD7E /* SwiftUI_Bootcamp_2App.swift */; };
 		CE47AAF92AF9547A00D9BD7E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE47AAF82AF9547A00D9BD7E /* Persistence.swift */; };
 		CE47AAFC2AF9547A00D9BD7E /* SwiftUI_Bootcamp_2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE47AAFA2AF9547A00D9BD7E /* SwiftUI_Bootcamp_2.xcdatamodeld */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE46F1272AFAD5F1002B04E3 /* MagnificationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureBootcamp.swift; sourceTree = "<group>"; };
 		CE47AAF32AF9547A00D9BD7E /* SwiftUI-Bootcamp-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Bootcamp-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE47AAF62AF9547A00D9BD7E /* SwiftUI_Bootcamp_2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Bootcamp_2App.swift; sourceTree = "<group>"; };
 		CE47AAF82AF9547A00D9BD7E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -39,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE46F1292AFAD5F6002B04E3 /* Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				CE47AB0A2AF955B500D9BD7E /* LongPressGestureBootcamp.swift */,
+				CE46F1272AFAD5F1002B04E3 /* MagnificationGestureBootcamp.swift */,
+			);
+			path = Gestures;
+			sourceTree = "<group>";
+		};
 		CE47AAEA2AF9547A00D9BD7E = {
 			isa = PBXGroup;
 			children = (
@@ -61,7 +72,7 @@
 				CE47AAF62AF9547A00D9BD7E /* SwiftUI_Bootcamp_2App.swift */,
 				CE47AAF82AF9547A00D9BD7E /* Persistence.swift */,
 				CE47AAFD2AF9547A00D9BD7E /* ContentView.swift */,
-				CE47AB0A2AF955B500D9BD7E /* LongPressGestureBootcamp.swift */,
+				CE46F1292AFAD5F6002B04E3 /* Gestures */,
 				CE47AAFF2AF9547B00D9BD7E /* Assets.xcassets */,
 				CE47AB012AF9547B00D9BD7E /* SwiftUI_Bootcamp_2.entitlements */,
 				CE47AAFA2AF9547A00D9BD7E /* SwiftUI_Bootcamp_2.xcdatamodeld */,
@@ -148,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE46F1282AFAD5F1002B04E3 /* MagnificationGestureBootcamp.swift in Sources */,
 				CE47AAF72AF9547A00D9BD7E /* SwiftUI_Bootcamp_2App.swift in Sources */,
 				CE47AAFC2AF9547A00D9BD7E /* SwiftUI_Bootcamp_2.xcdatamodeld in Sources */,
 				CE47AAFE2AF9547A00D9BD7E /* ContentView.swift in Sources */,

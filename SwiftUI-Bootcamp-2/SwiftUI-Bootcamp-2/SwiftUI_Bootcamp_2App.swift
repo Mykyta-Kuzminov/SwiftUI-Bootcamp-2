@@ -13,7 +13,7 @@ struct SwiftUI_Bootcamp_2App: App {
 
     var body: some Scene {
         WindowGroup {
-            HapticsBootcamp()
+            NotificationsBootcamp()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

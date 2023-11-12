@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE16E23E2B00DC3C004AFB40 /* NotificationsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE16E23D2B00DC3C004AFB40 /* NotificationsBootcamp.swift */; };
+		CE16E2402B00DC4B004AFB40 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE16E23F2B00DC4B004AFB40 /* NotificationManager.swift */; };
 		CE22F6642AFD4D3D002023AA /* ScrollViewReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE22F6632AFD4D3D002023AA /* ScrollViewReaderBootcamp.swift */; };
 		CE22F6672AFD5402002023AA /* GeometryReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE22F6662AFD5402002023AA /* GeometryReaderBootcamp.swift */; };
 		CE22FEE62AFF8D5E00009C4B /* SoundsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE22FEE52AFF8D5E00009C4B /* SoundsBootcamp.swift */; };
@@ -29,6 +31,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE16E23D2B00DC3C004AFB40 /* NotificationsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsBootcamp.swift; sourceTree = "<group>"; };
+		CE16E23F2B00DC4B004AFB40 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		CE22F6632AFD4D3D002023AA /* ScrollViewReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderBootcamp.swift; sourceTree = "<group>"; };
 		CE22F6662AFD5402002023AA /* GeometryReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderBootcamp.swift; sourceTree = "<group>"; };
 		CE22FEE52AFF8D5E00009C4B /* SoundsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsBootcamp.swift; sourceTree = "<group>"; };
@@ -63,6 +67,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE16E23C2B00DC1E004AFB40 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				CE16E23D2B00DC3C004AFB40 /* NotificationsBootcamp.swift */,
+				CE16E23F2B00DC4B004AFB40 /* NotificationManager.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
 		CE22F6652AFD53D9002023AA /* Readers */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +151,7 @@
 				CE22F6652AFD53D9002023AA /* Readers */,
 				CE3315352AFE66EA00DB5E0F /* Others */,
 				CE22FEE42AFF8D3900009C4B /* AVKit */,
+				CE16E23C2B00DC1E004AFB40 /* Notifications */,
 				CE47AAFF2AF9547B00D9BD7E /* Assets.xcassets */,
 				CE47AB012AF9547B00D9BD7E /* SwiftUI_Bootcamp_2.entitlements */,
 				CE47AAFA2AF9547A00D9BD7E /* SwiftUI_Bootcamp_2.xcdatamodeld */,
@@ -227,10 +241,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE22F6642AFD4D3D002023AA /* ScrollViewReaderBootcamp.swift in Sources */,
+				CE16E2402B00DC4B004AFB40 /* NotificationManager.swift in Sources */,
 				CE46F1282AFAD5F1002B04E3 /* MagnificationGestureBootcamp.swift in Sources */,
 				CE3315372AFE671000DB5E0F /* MultipleSheetsBootcamp.swift in Sources */,
 				CE22FEE62AFF8D5E00009C4B /* SoundsBootcamp.swift in Sources */,
 				CE47AAF72AF9547A00D9BD7E /* SwiftUI_Bootcamp_2App.swift in Sources */,
+				CE16E23E2B00DC3C004AFB40 /* NotificationsBootcamp.swift in Sources */,
 				CE22FEE92AFF8D8200009C4B /* SoundManager.swift in Sources */,
 				CE47AAFC2AF9547A00D9BD7E /* SwiftUI_Bootcamp_2.xcdatamodeld in Sources */,
 				CE22FEEF2AFF981D00009C4B /* HapticsBootcamp.swift in Sources */,

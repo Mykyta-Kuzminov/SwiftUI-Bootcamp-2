@@ -31,7 +31,7 @@ struct HapticsBootcamp: View {
         VStack {
             Button("Success") { HapticManager.instance.notification(type: .success) }
             Button("Warning") { HapticManager.instance.notification(type: .warning) }
-            Button("Error") { HapticManager.instance.notification(type: .error) }
+            Button("Error") { HapticManager.instance.notification(type: .error) }  
             Divider()
             Button("Soft") { HapticManager.instance.impact(style: .soft) }
             Button("Light") { HapticManager.instance.impact(style: .light) }

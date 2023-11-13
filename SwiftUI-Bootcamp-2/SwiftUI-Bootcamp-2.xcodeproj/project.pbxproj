@@ -29,6 +29,7 @@
 		CE52D3632AFBE39400F9AFF4 /* RotationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE52D3622AFBE39400F9AFF4 /* RotationGestureBootcamp.swift */; };
 		CE52D3652AFBE66E00F9AFF4 /* DragGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE52D3642AFBE66E00F9AFF4 /* DragGestureBootcamp.swift */; };
 		CECD002D2B02283000A8F020 /* HashableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD002C2B02283000A8F020 /* HashableBootcamp.swift */; };
+		CECD002F2B026D3B00A8F020 /* ArrayBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD002E2B026D3B00A8F020 /* ArrayBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		CE52D3622AFBE39400F9AFF4 /* RotationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureBootcamp.swift; sourceTree = "<group>"; };
 		CE52D3642AFBE66E00F9AFF4 /* DragGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBootcamp.swift; sourceTree = "<group>"; };
 		CECD002C2B02283000A8F020 /* HashableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableBootcamp.swift; sourceTree = "<group>"; };
+		CECD002E2B026D3B00A8F020 /* ArrayBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				CE3315382AFE6F6D00DB5E0F /* MaskBootcamp.swift */,
 				CE22FEEE2AFF981D00009C4B /* HapticsBootcamp.swift */,
 				CECD002C2B02283000A8F020 /* HashableBootcamp.swift */,
+				CECD002E2B026D3B00A8F020 /* ArrayBootcamp.swift */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 				CE22FEEF2AFF981D00009C4B /* HapticsBootcamp.swift in Sources */,
 				CE47AAFE2AF9547A00D9BD7E /* ContentView.swift in Sources */,
 				CE47AAF92AF9547A00D9BD7E /* Persistence.swift in Sources */,
+				CECD002F2B026D3B00A8F020 /* ArrayBootcamp.swift in Sources */,
 				CE52D3632AFBE39400F9AFF4 /* RotationGestureBootcamp.swift in Sources */,
 				CE52D3652AFBE66E00F9AFF4 /* DragGestureBootcamp.swift in Sources */,
 				CE47AB0B2AF955B500D9BD7E /* LongPressGestureBootcamp.swift in Sources */,

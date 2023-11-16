@@ -9,12 +9,9 @@ import SwiftUI
 
 @main
 struct SwiftUI_Bootcamp_2App: App {
-    let persistenceController = PersistenceController.shared
-
     var body: some Scene {
         WindowGroup {
             NotificationsBootcamp()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }

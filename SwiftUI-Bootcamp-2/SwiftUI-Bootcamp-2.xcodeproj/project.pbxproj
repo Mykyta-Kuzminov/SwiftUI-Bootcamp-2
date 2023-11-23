@@ -13,9 +13,9 @@
 		CE22F6672AFD5402002023AA /* GeometryReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE22F6662AFD5402002023AA /* GeometryReaderBootcamp.swift */; };
 		CE22FEE62AFF8D5E00009C4B /* SoundsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE22FEE52AFF8D5E00009C4B /* SoundsBootcamp.swift */; };
 		CE22FEE92AFF8D8200009C4B /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE22FEE82AFF8D8200009C4B /* SoundManager.swift */; };
-		CE22FEEC2AFF8F6B00009C4B /* gameover.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE22FEEA2AFF8F6B00009C4B /* gameover.wav */; };
-		CE22FEED2AFF8F6B00009C4B /* notification.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE22FEEB2AFF8F6B00009C4B /* notification.wav */; };
 		CE22FEEF2AFF981D00009C4B /* HapticsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE22FEEE2AFF981D00009C4B /* HapticsBootcamp.swift */; };
+		CE27D11D2B0DFB1400D94054 /* DepartmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE27D11C2B0DFB1400D94054 /* DepartmentsView.swift */; };
+		CE27D11F2B0DFB3600D94054 /* EmployeesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE27D11E2B0DFB3500D94054 /* EmployeesView.swift */; };
 		CE3315372AFE671000DB5E0F /* MultipleSheetsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3315362AFE671000DB5E0F /* MultipleSheetsBootcamp.swift */; };
 		CE3315392AFE6F6D00DB5E0F /* MaskBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3315382AFE6F6D00DB5E0F /* MaskBootcamp.swift */; };
 		CE46F1282AFAD5F1002B04E3 /* MagnificationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46F1272AFAD5F1002B04E3 /* MagnificationGestureBootcamp.swift */; };
@@ -29,8 +29,15 @@
 		CEA1C0BF2B06A4EC0096900E /* CoreDataBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA1C0BE2B06A4EC0096900E /* CoreDataBootcamp.swift */; };
 		CEA1C0C12B06A4FD0096900E /* CoreDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA1C0C02B06A4FD0096900E /* CoreDataViewModel.swift */; };
 		CEA1C0C42B06A5100096900E /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEA1C0C22B06A5100096900E /* DataModel.xcdatamodeld */; };
+		CEA83AEA2B0D2DC2009BE024 /* BusinessesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA83AE92B0D2DC2009BE024 /* BusinessesView.swift */; };
 		CECD002D2B02283000A8F020 /* HashableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD002C2B02283000A8F020 /* HashableBootcamp.swift */; };
 		CECD002F2B026D3B00A8F020 /* ArrayBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD002E2B026D3B00A8F020 /* ArrayBootcamp.swift */; };
+		CEE782312B0D23F900A60DE9 /* notification.wav in Resources */ = {isa = PBXBuildFile; fileRef = CEE782302B0D23F900A60DE9 /* notification.wav */; };
+		CEE782352B0D245D00A60DE9 /* gameover.wav in Resources */ = {isa = PBXBuildFile; fileRef = CEE782342B0D245D00A60DE9 /* gameover.wav */; };
+		CEE782382B0D24DD00A60DE9 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE782372B0D24DD00A60DE9 /* CoreDataManager.swift */; };
+		CEE7823A2B0D24EA00A60DE9 /* CoreDataRelationship.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE782392B0D24EA00A60DE9 /* CoreDataRelationship.swift */; };
+		CEE7823F2B0D257500A60DE9 /* CoreDataRelationship.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEE7823D2B0D257500A60DE9 /* CoreDataRelationship.xcdatamodeld */; };
+		CEE782412B0D284700A60DE9 /* RelationshipViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE782402B0D284700A60DE9 /* RelationshipViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,9 +47,9 @@
 		CE22F6662AFD5402002023AA /* GeometryReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderBootcamp.swift; sourceTree = "<group>"; };
 		CE22FEE52AFF8D5E00009C4B /* SoundsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsBootcamp.swift; sourceTree = "<group>"; };
 		CE22FEE82AFF8D8200009C4B /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
-		CE22FEEA2AFF8F6B00009C4B /* gameover.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = gameover.wav; path = ../../../../../../../../Downloads/gameover.wav; sourceTree = "<group>"; };
-		CE22FEEB2AFF8F6B00009C4B /* notification.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = notification.wav; path = ../../../../../../../../Downloads/notification.wav; sourceTree = "<group>"; };
 		CE22FEEE2AFF981D00009C4B /* HapticsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsBootcamp.swift; sourceTree = "<group>"; };
+		CE27D11C2B0DFB1400D94054 /* DepartmentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentsView.swift; sourceTree = "<group>"; };
+		CE27D11E2B0DFB3500D94054 /* EmployeesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesView.swift; sourceTree = "<group>"; };
 		CE3315362AFE671000DB5E0F /* MultipleSheetsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsBootcamp.swift; sourceTree = "<group>"; };
 		CE3315382AFE6F6D00DB5E0F /* MaskBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskBootcamp.swift; sourceTree = "<group>"; };
 		CE46F1272AFAD5F1002B04E3 /* MagnificationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureBootcamp.swift; sourceTree = "<group>"; };
@@ -58,8 +65,15 @@
 		CEA1C0BE2B06A4EC0096900E /* CoreDataBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootcamp.swift; sourceTree = "<group>"; };
 		CEA1C0C02B06A4FD0096900E /* CoreDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataViewModel.swift; sourceTree = "<group>"; };
 		CEA1C0C32B06A5100096900E /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		CEA83AE92B0D2DC2009BE024 /* BusinessesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessesView.swift; sourceTree = "<group>"; };
 		CECD002C2B02283000A8F020 /* HashableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableBootcamp.swift; sourceTree = "<group>"; };
 		CECD002E2B026D3B00A8F020 /* ArrayBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayBootcamp.swift; sourceTree = "<group>"; };
+		CEE782302B0D23F900A60DE9 /* notification.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = notification.wav; path = "../../../../../../../../Music/Music/Media.localized/Music/Unknown Artist/Unknown Album/notification.wav"; sourceTree = "<group>"; };
+		CEE782342B0D245D00A60DE9 /* gameover.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = gameover.wav; path = "../../../../../../../../Music/Music/Media.localized/Music/Unknown Artist/Unknown Album/gameover.wav"; sourceTree = "<group>"; };
+		CEE782372B0D24DD00A60DE9 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		CEE782392B0D24EA00A60DE9 /* CoreDataRelationship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationship.swift; sourceTree = "<group>"; };
+		CEE7823E2B0D257500A60DE9 /* CoreDataRelationship.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataRelationship.xcdatamodel; sourceTree = "<group>"; };
+		CEE782402B0D284700A60DE9 /* RelationshipViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelationshipViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +118,8 @@
 		CE22FEE72AFF8D6200009C4B /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				CE22FEEA2AFF8F6B00009C4B /* gameover.wav */,
-				CE22FEEB2AFF8F6B00009C4B /* notification.wav */,
+				CEE782342B0D245D00A60DE9 /* gameover.wav */,
+				CEE782302B0D23F900A60DE9 /* notification.wav */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -160,6 +174,7 @@
 				CE22FEE42AFF8D3900009C4B /* AVKit */,
 				CE16E23C2B00DC1E004AFB40 /* Notifications */,
 				CEA1C0BD2B06A4D70096900E /* CoreData */,
+				CEE782362B0D24BC00A60DE9 /* CoreDataRelationship */,
 				CE47AAFF2AF9547B00D9BD7E /* Assets.xcassets */,
 				CE47AB012AF9547B00D9BD7E /* SwiftUI_Bootcamp_2.entitlements */,
 				CE47AB022AF9547B00D9BD7E /* Preview Content */,
@@ -183,6 +198,28 @@
 				CEA1C0C22B06A5100096900E /* DataModel.xcdatamodeld */,
 			);
 			path = CoreData;
+			sourceTree = "<group>";
+		};
+		CEA83AE82B0D2DAF009BE024 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEA83AE92B0D2DC2009BE024 /* BusinessesView.swift */,
+				CE27D11C2B0DFB1400D94054 /* DepartmentsView.swift */,
+				CE27D11E2B0DFB3500D94054 /* EmployeesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CEE782362B0D24BC00A60DE9 /* CoreDataRelationship */ = {
+			isa = PBXGroup;
+			children = (
+				CEE782372B0D24DD00A60DE9 /* CoreDataManager.swift */,
+				CEE782392B0D24EA00A60DE9 /* CoreDataRelationship.swift */,
+				CEE782402B0D284700A60DE9 /* RelationshipViewModel.swift */,
+				CEA83AE82B0D2DAF009BE024 /* Views */,
+				CEE7823D2B0D257500A60DE9 /* CoreDataRelationship.xcdatamodeld */,
+			);
+			path = CoreDataRelationship;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,10 +280,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE22FEEC2AFF8F6B00009C4B /* gameover.wav in Resources */,
+				CEE782312B0D23F900A60DE9 /* notification.wav in Resources */,
 				CE47AB042AF9547B00D9BD7E /* Preview Assets.xcassets in Resources */,
+				CEE782352B0D245D00A60DE9 /* gameover.wav in Resources */,
 				CE47AB002AF9547B00D9BD7E /* Assets.xcassets in Resources */,
-				CE22FEED2AFF8F6B00009C4B /* notification.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,21 +296,28 @@
 			files = (
 				CE22F6642AFD4D3D002023AA /* ScrollViewReaderBootcamp.swift in Sources */,
 				CEA1C0C42B06A5100096900E /* DataModel.xcdatamodeld in Sources */,
+				CEE7823F2B0D257500A60DE9 /* CoreDataRelationship.xcdatamodeld in Sources */,
 				CEA1C0C12B06A4FD0096900E /* CoreDataViewModel.swift in Sources */,
 				CE16E2402B00DC4B004AFB40 /* NotificationManager.swift in Sources */,
+				CEE7823A2B0D24EA00A60DE9 /* CoreDataRelationship.swift in Sources */,
+				CE27D11D2B0DFB1400D94054 /* DepartmentsView.swift in Sources */,
 				CE46F1282AFAD5F1002B04E3 /* MagnificationGestureBootcamp.swift in Sources */,
 				CE3315372AFE671000DB5E0F /* MultipleSheetsBootcamp.swift in Sources */,
 				CE22FEE62AFF8D5E00009C4B /* SoundsBootcamp.swift in Sources */,
 				CE47AAF72AF9547A00D9BD7E /* SwiftUI_Bootcamp_2App.swift in Sources */,
 				CECD002D2B02283000A8F020 /* HashableBootcamp.swift in Sources */,
 				CE16E23E2B00DC3C004AFB40 /* NotificationsBootcamp.swift in Sources */,
+				CEE782412B0D284700A60DE9 /* RelationshipViewModel.swift in Sources */,
 				CE22FEE92AFF8D8200009C4B /* SoundManager.swift in Sources */,
 				CE22FEEF2AFF981D00009C4B /* HapticsBootcamp.swift in Sources */,
+				CEE782382B0D24DD00A60DE9 /* CoreDataManager.swift in Sources */,
 				CE47AAFE2AF9547A00D9BD7E /* ContentView.swift in Sources */,
 				CECD002F2B026D3B00A8F020 /* ArrayBootcamp.swift in Sources */,
 				CE52D3632AFBE39400F9AFF4 /* RotationGestureBootcamp.swift in Sources */,
+				CE27D11F2B0DFB3600D94054 /* EmployeesView.swift in Sources */,
 				CEA1C0BF2B06A4EC0096900E /* CoreDataBootcamp.swift in Sources */,
 				CE52D3652AFBE66E00F9AFF4 /* DragGestureBootcamp.swift in Sources */,
+				CEA83AEA2B0D2DC2009BE024 /* BusinessesView.swift in Sources */,
 				CE47AB0B2AF955B500D9BD7E /* LongPressGestureBootcamp.swift in Sources */,
 				CE3315392AFE6F6D00DB5E0F /* MaskBootcamp.swift in Sources */,
 				CE22F6672AFD5402002023AA /* GeometryReaderBootcamp.swift in Sources */,
@@ -500,6 +544,16 @@
 			);
 			currentVersion = CEA1C0C32B06A5100096900E /* DataModel.xcdatamodel */;
 			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		CEE7823D2B0D257500A60DE9 /* CoreDataRelationship.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CEE7823E2B0D257500A60DE9 /* CoreDataRelationship.xcdatamodel */,
+			);
+			currentVersion = CEE7823E2B0D257500A60DE9 /* CoreDataRelationship.xcdatamodel */;
+			path = CoreDataRelationship.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

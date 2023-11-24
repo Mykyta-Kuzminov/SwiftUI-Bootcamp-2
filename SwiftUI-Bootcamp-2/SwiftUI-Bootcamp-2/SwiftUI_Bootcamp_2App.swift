@@ -14,8 +14,7 @@ struct SwiftUI_Bootcamp_2App: App {
     
     var body: some Scene {
         WindowGroup {
-            CoreDataRelationship()
-                .environmentObject(vm)
+            BackgroundThreadBootcamp()
         }
     }
 }

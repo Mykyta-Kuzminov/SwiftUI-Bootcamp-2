@@ -30,6 +30,8 @@
 		CEA1C0C12B06A4FD0096900E /* CoreDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA1C0C02B06A4FD0096900E /* CoreDataViewModel.swift */; };
 		CEA1C0C42B06A5100096900E /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEA1C0C22B06A5100096900E /* DataModel.xcdatamodeld */; };
 		CEA83AEA2B0D2DC2009BE024 /* BusinessesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA83AE92B0D2DC2009BE024 /* BusinessesView.swift */; };
+		CECA53BC2B1113BA00F84CCF /* BackgroundThreadBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA53BB2B1113BA00F84CCF /* BackgroundThreadBootcamp.swift */; };
+		CECA53BE2B1113DA00F84CCF /* BackgroundThreadViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA53BD2B1113DA00F84CCF /* BackgroundThreadViewModel.swift */; };
 		CECD002D2B02283000A8F020 /* HashableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD002C2B02283000A8F020 /* HashableBootcamp.swift */; };
 		CECD002F2B026D3B00A8F020 /* ArrayBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD002E2B026D3B00A8F020 /* ArrayBootcamp.swift */; };
 		CEE782312B0D23F900A60DE9 /* notification.wav in Resources */ = {isa = PBXBuildFile; fileRef = CEE782302B0D23F900A60DE9 /* notification.wav */; };
@@ -66,6 +68,8 @@
 		CEA1C0C02B06A4FD0096900E /* CoreDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataViewModel.swift; sourceTree = "<group>"; };
 		CEA1C0C32B06A5100096900E /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		CEA83AE92B0D2DC2009BE024 /* BusinessesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessesView.swift; sourceTree = "<group>"; };
+		CECA53BB2B1113BA00F84CCF /* BackgroundThreadBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadBootcamp.swift; sourceTree = "<group>"; };
+		CECA53BD2B1113DA00F84CCF /* BackgroundThreadViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadViewModel.swift; sourceTree = "<group>"; };
 		CECD002C2B02283000A8F020 /* HashableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableBootcamp.swift; sourceTree = "<group>"; };
 		CECD002E2B026D3B00A8F020 /* ArrayBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayBootcamp.swift; sourceTree = "<group>"; };
 		CEE782302B0D23F900A60DE9 /* notification.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = notification.wav; path = "../../../../../../../../Music/Music/Media.localized/Music/Unknown Artist/Unknown Album/notification.wav"; sourceTree = "<group>"; };
@@ -175,6 +179,7 @@
 				CE16E23C2B00DC1E004AFB40 /* Notifications */,
 				CEA1C0BD2B06A4D70096900E /* CoreData */,
 				CEE782362B0D24BC00A60DE9 /* CoreDataRelationship */,
+				CECA53BA2B11138600F84CCF /* Threads */,
 				CE47AAFF2AF9547B00D9BD7E /* Assets.xcassets */,
 				CE47AB012AF9547B00D9BD7E /* SwiftUI_Bootcamp_2.entitlements */,
 				CE47AB022AF9547B00D9BD7E /* Preview Content */,
@@ -208,6 +213,15 @@
 				CE27D11E2B0DFB3500D94054 /* EmployeesView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		CECA53BA2B11138600F84CCF /* Threads */ = {
+			isa = PBXGroup;
+			children = (
+				CECA53BB2B1113BA00F84CCF /* BackgroundThreadBootcamp.swift */,
+				CECA53BD2B1113DA00F84CCF /* BackgroundThreadViewModel.swift */,
+			);
+			path = Threads;
 			sourceTree = "<group>";
 		};
 		CEE782362B0D24BC00A60DE9 /* CoreDataRelationship */ = {
@@ -304,6 +318,7 @@
 				CE46F1282AFAD5F1002B04E3 /* MagnificationGestureBootcamp.swift in Sources */,
 				CE3315372AFE671000DB5E0F /* MultipleSheetsBootcamp.swift in Sources */,
 				CE22FEE62AFF8D5E00009C4B /* SoundsBootcamp.swift in Sources */,
+				CECA53BC2B1113BA00F84CCF /* BackgroundThreadBootcamp.swift in Sources */,
 				CE47AAF72AF9547A00D9BD7E /* SwiftUI_Bootcamp_2App.swift in Sources */,
 				CECD002D2B02283000A8F020 /* HashableBootcamp.swift in Sources */,
 				CE16E23E2B00DC3C004AFB40 /* NotificationsBootcamp.swift in Sources */,
@@ -314,6 +329,7 @@
 				CE47AAFE2AF9547A00D9BD7E /* ContentView.swift in Sources */,
 				CECD002F2B026D3B00A8F020 /* ArrayBootcamp.swift in Sources */,
 				CE52D3632AFBE39400F9AFF4 /* RotationGestureBootcamp.swift in Sources */,
+				CECA53BE2B1113DA00F84CCF /* BackgroundThreadViewModel.swift in Sources */,
 				CE27D11F2B0DFB3600D94054 /* EmployeesView.swift in Sources */,
 				CEA1C0BF2B06A4EC0096900E /* CoreDataBootcamp.swift in Sources */,
 				CE52D3652AFBE66E00F9AFF4 /* DragGestureBootcamp.swift in Sources */,

@@ -16,6 +16,8 @@
 		CE22FEEF2AFF981D00009C4B /* HapticsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE22FEEE2AFF981D00009C4B /* HapticsBootcamp.swift */; };
 		CE27D11D2B0DFB1400D94054 /* DepartmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE27D11C2B0DFB1400D94054 /* DepartmentsView.swift */; };
 		CE27D11F2B0DFB3600D94054 /* EmployeesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE27D11E2B0DFB3500D94054 /* EmployeesView.swift */; };
+		CE315AD22B127D0B000A916D /* WeakSelfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE315AD12B127D0B000A916D /* WeakSelfBootcamp.swift */; };
+		CE315AD42B127D1C000A916D /* WeakSelfViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE315AD32B127D1C000A916D /* WeakSelfViewModel.swift */; };
 		CE3315372AFE671000DB5E0F /* MultipleSheetsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3315362AFE671000DB5E0F /* MultipleSheetsBootcamp.swift */; };
 		CE3315392AFE6F6D00DB5E0F /* MaskBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3315382AFE6F6D00DB5E0F /* MaskBootcamp.swift */; };
 		CE46F1282AFAD5F1002B04E3 /* MagnificationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46F1272AFAD5F1002B04E3 /* MagnificationGestureBootcamp.swift */; };
@@ -52,6 +54,8 @@
 		CE22FEEE2AFF981D00009C4B /* HapticsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsBootcamp.swift; sourceTree = "<group>"; };
 		CE27D11C2B0DFB1400D94054 /* DepartmentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentsView.swift; sourceTree = "<group>"; };
 		CE27D11E2B0DFB3500D94054 /* EmployeesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesView.swift; sourceTree = "<group>"; };
+		CE315AD12B127D0B000A916D /* WeakSelfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelfBootcamp.swift; sourceTree = "<group>"; };
+		CE315AD32B127D1C000A916D /* WeakSelfViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelfViewModel.swift; sourceTree = "<group>"; };
 		CE3315362AFE671000DB5E0F /* MultipleSheetsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsBootcamp.swift; sourceTree = "<group>"; };
 		CE3315382AFE6F6D00DB5E0F /* MaskBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskBootcamp.swift; sourceTree = "<group>"; };
 		CE46F1272AFAD5F1002B04E3 /* MagnificationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureBootcamp.swift; sourceTree = "<group>"; };
@@ -128,6 +132,15 @@
 			path = Sounds;
 			sourceTree = "<group>";
 		};
+		CE315AD02B127CF5000A916D /* WeakSelf */ = {
+			isa = PBXGroup;
+			children = (
+				CE315AD12B127D0B000A916D /* WeakSelfBootcamp.swift */,
+				CE315AD32B127D1C000A916D /* WeakSelfViewModel.swift */,
+			);
+			path = WeakSelf;
+			sourceTree = "<group>";
+		};
 		CE3315352AFE66EA00DB5E0F /* Others */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,6 +193,7 @@
 				CEA1C0BD2B06A4D70096900E /* CoreData */,
 				CEE782362B0D24BC00A60DE9 /* CoreDataRelationship */,
 				CECA53BA2B11138600F84CCF /* Threads */,
+				CE315AD02B127CF5000A916D /* WeakSelf */,
 				CE47AAFF2AF9547B00D9BD7E /* Assets.xcassets */,
 				CE47AB012AF9547B00D9BD7E /* SwiftUI_Bootcamp_2.entitlements */,
 				CE47AB022AF9547B00D9BD7E /* Preview Content */,
@@ -332,8 +346,10 @@
 				CECA53BE2B1113DA00F84CCF /* BackgroundThreadViewModel.swift in Sources */,
 				CE27D11F2B0DFB3600D94054 /* EmployeesView.swift in Sources */,
 				CEA1C0BF2B06A4EC0096900E /* CoreDataBootcamp.swift in Sources */,
+				CE315AD22B127D0B000A916D /* WeakSelfBootcamp.swift in Sources */,
 				CE52D3652AFBE66E00F9AFF4 /* DragGestureBootcamp.swift in Sources */,
 				CEA83AEA2B0D2DC2009BE024 /* BusinessesView.swift in Sources */,
+				CE315AD42B127D1C000A916D /* WeakSelfViewModel.swift in Sources */,
 				CE47AB0B2AF955B500D9BD7E /* LongPressGestureBootcamp.swift in Sources */,
 				CE3315392AFE6F6D00DB5E0F /* MaskBootcamp.swift in Sources */,
 				CE22F6672AFD5402002023AA /* GeometryReaderBootcamp.swift in Sources */,

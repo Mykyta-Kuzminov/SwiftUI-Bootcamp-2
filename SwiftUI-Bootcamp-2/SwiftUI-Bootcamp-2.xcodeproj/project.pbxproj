@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE0B6B832B13A7D300367919 /* EscapingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0B6B822B13A7D300367919 /* EscapingBootcamp.swift */; };
 		CE16E23E2B00DC3C004AFB40 /* NotificationsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE16E23D2B00DC3C004AFB40 /* NotificationsBootcamp.swift */; };
 		CE16E2402B00DC4B004AFB40 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE16E23F2B00DC4B004AFB40 /* NotificationManager.swift */; };
 		CE22F6642AFD4D3D002023AA /* ScrollViewReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE22F6632AFD4D3D002023AA /* ScrollViewReaderBootcamp.swift */; };
@@ -46,6 +47,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE0B6B822B13A7D300367919 /* EscapingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingBootcamp.swift; sourceTree = "<group>"; };
 		CE16E23D2B00DC3C004AFB40 /* NotificationsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsBootcamp.swift; sourceTree = "<group>"; };
 		CE16E23F2B00DC4B004AFB40 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		CE22F6632AFD4D3D002023AA /* ScrollViewReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderBootcamp.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				CECD002C2B02283000A8F020 /* HashableBootcamp.swift */,
 				CECD002E2B026D3B00A8F020 /* ArrayBootcamp.swift */,
 				CE4AE8D62B134FF70063CE24 /* TypealiesBootcamp.swift */,
+				CE0B6B822B13A7D300367919 /* EscapingBootcamp.swift */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -337,6 +340,7 @@
 				CE22FEE62AFF8D5E00009C4B /* SoundsBootcamp.swift in Sources */,
 				CECA53BC2B1113BA00F84CCF /* BackgroundThreadBootcamp.swift in Sources */,
 				CE47AAF72AF9547A00D9BD7E /* SwiftUI_Bootcamp_2App.swift in Sources */,
+				CE0B6B832B13A7D300367919 /* EscapingBootcamp.swift in Sources */,
 				CECD002D2B02283000A8F020 /* HashableBootcamp.swift in Sources */,
 				CE16E23E2B00DC3C004AFB40 /* NotificationsBootcamp.swift in Sources */,
 				CEE782412B0D284700A60DE9 /* RelationshipViewModel.swift in Sources */,

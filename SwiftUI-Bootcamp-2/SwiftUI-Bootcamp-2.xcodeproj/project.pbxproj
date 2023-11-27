@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CE0B6B832B13A7D300367919 /* EscapingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0B6B822B13A7D300367919 /* EscapingBootcamp.swift */; };
+		CE1214D92B14EFD800FAA025 /* CodableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1214D82B14EFD700FAA025 /* CodableBootcamp.swift */; };
 		CE16E23E2B00DC3C004AFB40 /* NotificationsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE16E23D2B00DC3C004AFB40 /* NotificationsBootcamp.swift */; };
 		CE16E2402B00DC4B004AFB40 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE16E23F2B00DC4B004AFB40 /* NotificationManager.swift */; };
 		CE22F6642AFD4D3D002023AA /* ScrollViewReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE22F6632AFD4D3D002023AA /* ScrollViewReaderBootcamp.swift */; };
@@ -48,6 +49,7 @@
 
 /* Begin PBXFileReference section */
 		CE0B6B822B13A7D300367919 /* EscapingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingBootcamp.swift; sourceTree = "<group>"; };
+		CE1214D82B14EFD700FAA025 /* CodableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBootcamp.swift; sourceTree = "<group>"; };
 		CE16E23D2B00DC3C004AFB40 /* NotificationsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsBootcamp.swift; sourceTree = "<group>"; };
 		CE16E23F2B00DC4B004AFB40 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		CE22F6632AFD4D3D002023AA /* ScrollViewReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderBootcamp.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				CECD002E2B026D3B00A8F020 /* ArrayBootcamp.swift */,
 				CE4AE8D62B134FF70063CE24 /* TypealiesBootcamp.swift */,
 				CE0B6B822B13A7D300367919 /* EscapingBootcamp.swift */,
+				CE1214D82B14EFD700FAA025 /* CodableBootcamp.swift */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -347,6 +350,7 @@
 				CE22FEE92AFF8D8200009C4B /* SoundManager.swift in Sources */,
 				CE22FEEF2AFF981D00009C4B /* HapticsBootcamp.swift in Sources */,
 				CEE782382B0D24DD00A60DE9 /* CoreDataManager.swift in Sources */,
+				CE1214D92B14EFD800FAA025 /* CodableBootcamp.swift in Sources */,
 				CE47AAFE2AF9547A00D9BD7E /* ContentView.swift in Sources */,
 				CECD002F2B026D3B00A8F020 /* ArrayBootcamp.swift in Sources */,
 				CE52D3632AFBE39400F9AFF4 /* RotationGestureBootcamp.swift in Sources */,

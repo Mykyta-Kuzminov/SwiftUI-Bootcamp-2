@@ -50,6 +50,11 @@
 		CEE7823A2B0D24EA00A60DE9 /* CoreDataRelationship.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE782392B0D24EA00A60DE9 /* CoreDataRelationship.swift */; };
 		CEE7823F2B0D257500A60DE9 /* CoreDataRelationship.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEE7823D2B0D257500A60DE9 /* CoreDataRelationship.xcdatamodeld */; };
 		CEE782412B0D284700A60DE9 /* RelationshipViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE782402B0D284700A60DE9 /* RelationshipViewModel.swift */; };
+		CEEF01932B1B67ED001010EC /* FirstTimerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEF01922B1B67ED001010EC /* FirstTimerBootcamp.swift */; };
+		CEEF01952B1B6A79001010EC /* SecondTimerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEF01942B1B6A79001010EC /* SecondTimerBootcamp.swift */; };
+		CEEF01972B1B6C03001010EC /* ThirdTimerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEF01962B1B6C03001010EC /* ThirdTimerBootcamp.swift */; };
+		CEEF01992B1B70CD001010EC /* FourthTimerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEF01982B1B70CD001010EC /* FourthTimerBootcamp.swift */; };
+		CEEF019B2B1B7272001010EC /* FifthTimerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEF019A2B1B7272001010EC /* FifthTimerBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,6 +103,11 @@
 		CEE782392B0D24EA00A60DE9 /* CoreDataRelationship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationship.swift; sourceTree = "<group>"; };
 		CEE7823E2B0D257500A60DE9 /* CoreDataRelationship.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataRelationship.xcdatamodel; sourceTree = "<group>"; };
 		CEE782402B0D284700A60DE9 /* RelationshipViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelationshipViewModel.swift; sourceTree = "<group>"; };
+		CEEF01922B1B67ED001010EC /* FirstTimerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTimerBootcamp.swift; sourceTree = "<group>"; };
+		CEEF01942B1B6A79001010EC /* SecondTimerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTimerBootcamp.swift; sourceTree = "<group>"; };
+		CEEF01962B1B6C03001010EC /* ThirdTimerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTimerBootcamp.swift; sourceTree = "<group>"; };
+		CEEF01982B1B70CD001010EC /* FourthTimerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthTimerBootcamp.swift; sourceTree = "<group>"; };
+		CEEF019A2B1B7272001010EC /* FifthTimerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthTimerBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,6 +233,7 @@
 				CECA53BA2B11138600F84CCF /* Threads */,
 				CE315AD02B127CF5000A916D /* WeakSelf */,
 				CE13B7B02B17B3420085CE3C /* API */,
+				CEEF01912B1B67C4001010EC /* Timer */,
 				CE47AAFF2AF9547B00D9BD7E /* Assets.xcassets */,
 				CE47AB012AF9547B00D9BD7E /* SwiftUI_Bootcamp_2.entitlements */,
 				CE47AB022AF9547B00D9BD7E /* Preview Content */,
@@ -296,6 +307,18 @@
 				CEE7823D2B0D257500A60DE9 /* CoreDataRelationship.xcdatamodeld */,
 			);
 			path = CoreDataRelationship;
+			sourceTree = "<group>";
+		};
+		CEEF01912B1B67C4001010EC /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				CEEF01922B1B67ED001010EC /* FirstTimerBootcamp.swift */,
+				CEEF01942B1B6A79001010EC /* SecondTimerBootcamp.swift */,
+				CEEF01962B1B6C03001010EC /* ThirdTimerBootcamp.swift */,
+				CEEF01982B1B70CD001010EC /* FourthTimerBootcamp.swift */,
+				CEEF019A2B1B7272001010EC /* FifthTimerBootcamp.swift */,
+			);
+			path = Timer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -398,14 +421,19 @@
 				CE27D11F2B0DFB3600D94054 /* EmployeesView.swift in Sources */,
 				CE4AE8D72B134FF70063CE24 /* TypealiesBootcamp.swift in Sources */,
 				CEA1C0BF2B06A4EC0096900E /* CoreDataBootcamp.swift in Sources */,
+				CEEF01972B1B6C03001010EC /* ThirdTimerBootcamp.swift in Sources */,
 				CE315AD22B127D0B000A916D /* WeakSelfBootcamp.swift in Sources */,
 				CE52D3652AFBE66E00F9AFF4 /* DragGestureBootcamp.swift in Sources */,
 				CE13B7B22B17B3760085CE3C /* PostsListBootcamp.swift in Sources */,
 				CEA83AEA2B0D2DC2009BE024 /* BusinessesView.swift in Sources */,
+				CEEF01952B1B6A79001010EC /* SecondTimerBootcamp.swift in Sources */,
+				CEEF019B2B1B7272001010EC /* FifthTimerBootcamp.swift in Sources */,
 				CE4EA5312B18F14B001EC950 /* SecondPostsViewBootcamp.swift in Sources */,
 				CE315AD42B127D1C000A916D /* WeakSelfViewModel.swift in Sources */,
+				CEEF01992B1B70CD001010EC /* FourthTimerBootcamp.swift in Sources */,
 				CE13B7B42B17B3940085CE3C /* PostsViewModel.swift in Sources */,
 				CE47AB0B2AF955B500D9BD7E /* LongPressGestureBootcamp.swift in Sources */,
+				CEEF01932B1B67ED001010EC /* FirstTimerBootcamp.swift in Sources */,
 				CE3315392AFE6F6D00DB5E0F /* MaskBootcamp.swift in Sources */,
 				CE22F6672AFD5402002023AA /* GeometryReaderBootcamp.swift in Sources */,
 				CE13B7B62B17B3A40085CE3C /* PostModel.swift in Sources */,

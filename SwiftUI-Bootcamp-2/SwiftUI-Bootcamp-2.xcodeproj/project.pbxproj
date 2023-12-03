@@ -21,6 +21,7 @@
 		CE22FEEF2AFF981D00009C4B /* HapticsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE22FEEE2AFF981D00009C4B /* HapticsBootcamp.swift */; };
 		CE27D11D2B0DFB1400D94054 /* DepartmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE27D11C2B0DFB1400D94054 /* DepartmentsView.swift */; };
 		CE27D11F2B0DFB3600D94054 /* EmployeesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE27D11E2B0DFB3500D94054 /* EmployeesView.swift */; };
+		CE2B78122B1CDC8300249047 /* SubscriberBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2B78112B1CDC8300249047 /* SubscriberBootcamp.swift */; };
 		CE315AD22B127D0B000A916D /* WeakSelfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE315AD12B127D0B000A916D /* WeakSelfBootcamp.swift */; };
 		CE315AD42B127D1C000A916D /* WeakSelfViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE315AD32B127D1C000A916D /* WeakSelfViewModel.swift */; };
 		CE3315372AFE671000DB5E0F /* MultipleSheetsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3315362AFE671000DB5E0F /* MultipleSheetsBootcamp.swift */; };
@@ -72,6 +73,7 @@
 		CE22FEEE2AFF981D00009C4B /* HapticsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsBootcamp.swift; sourceTree = "<group>"; };
 		CE27D11C2B0DFB1400D94054 /* DepartmentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentsView.swift; sourceTree = "<group>"; };
 		CE27D11E2B0DFB3500D94054 /* EmployeesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesView.swift; sourceTree = "<group>"; };
+		CE2B78112B1CDC8300249047 /* SubscriberBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriberBootcamp.swift; sourceTree = "<group>"; };
 		CE315AD12B127D0B000A916D /* WeakSelfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelfBootcamp.swift; sourceTree = "<group>"; };
 		CE315AD32B127D1C000A916D /* WeakSelfViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelfViewModel.swift; sourceTree = "<group>"; };
 		CE3315362AFE671000DB5E0F /* MultipleSheetsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsBootcamp.swift; sourceTree = "<group>"; };
@@ -187,6 +189,7 @@
 				CE4AE8D62B134FF70063CE24 /* TypealiesBootcamp.swift */,
 				CE0B6B822B13A7D300367919 /* EscapingBootcamp.swift */,
 				CE1214D82B14EFD700FAA025 /* CodableBootcamp.swift */,
+				CE2B78112B1CDC8300249047 /* SubscriberBootcamp.swift */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -425,6 +428,7 @@
 				CE315AD22B127D0B000A916D /* WeakSelfBootcamp.swift in Sources */,
 				CE52D3652AFBE66E00F9AFF4 /* DragGestureBootcamp.swift in Sources */,
 				CE13B7B22B17B3760085CE3C /* PostsListBootcamp.swift in Sources */,
+				CE2B78122B1CDC8300249047 /* SubscriberBootcamp.swift in Sources */,
 				CEA83AEA2B0D2DC2009BE024 /* BusinessesView.swift in Sources */,
 				CEEF01952B1B6A79001010EC /* SecondTimerBootcamp.swift in Sources */,
 				CEEF019B2B1B7272001010EC /* FifthTimerBootcamp.swift in Sources */,

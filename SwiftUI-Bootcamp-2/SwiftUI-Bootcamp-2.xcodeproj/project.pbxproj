@@ -43,6 +43,7 @@
 		CEA83AEA2B0D2DC2009BE024 /* BusinessesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA83AE92B0D2DC2009BE024 /* BusinessesView.swift */; };
 		CECA53BC2B1113BA00F84CCF /* BackgroundThreadBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA53BB2B1113BA00F84CCF /* BackgroundThreadBootcamp.swift */; };
 		CECA53BE2B1113DA00F84CCF /* BackgroundThreadViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA53BD2B1113DA00F84CCF /* BackgroundThreadViewModel.swift */; };
+		CECC36EF2B1F085E00CDE32F /* FileManagerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC36EE2B1F085E00CDE32F /* FileManagerBootcamp.swift */; };
 		CECD002D2B02283000A8F020 /* HashableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD002C2B02283000A8F020 /* HashableBootcamp.swift */; };
 		CECD002F2B026D3B00A8F020 /* ArrayBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD002E2B026D3B00A8F020 /* ArrayBootcamp.swift */; };
 		CEE782312B0D23F900A60DE9 /* notification.wav in Resources */ = {isa = PBXBuildFile; fileRef = CEE782302B0D23F900A60DE9 /* notification.wav */; };
@@ -97,6 +98,7 @@
 		CEA83AE92B0D2DC2009BE024 /* BusinessesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessesView.swift; sourceTree = "<group>"; };
 		CECA53BB2B1113BA00F84CCF /* BackgroundThreadBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadBootcamp.swift; sourceTree = "<group>"; };
 		CECA53BD2B1113DA00F84CCF /* BackgroundThreadViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadViewModel.swift; sourceTree = "<group>"; };
+		CECC36EE2B1F085E00CDE32F /* FileManagerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerBootcamp.swift; sourceTree = "<group>"; };
 		CECD002C2B02283000A8F020 /* HashableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableBootcamp.swift; sourceTree = "<group>"; };
 		CECD002E2B026D3B00A8F020 /* ArrayBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayBootcamp.swift; sourceTree = "<group>"; };
 		CEE782302B0D23F900A60DE9 /* notification.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = notification.wav; path = "../../../../../../../../Music/Music/Media.localized/Music/Unknown Artist/Unknown Album/notification.wav"; sourceTree = "<group>"; };
@@ -237,6 +239,7 @@
 				CE315AD02B127CF5000A916D /* WeakSelf */,
 				CE13B7B02B17B3420085CE3C /* API */,
 				CEEF01912B1B67C4001010EC /* Timer */,
+				CECC36ED2B1F084700CDE32F /* FileManager */,
 				CE47AAFF2AF9547B00D9BD7E /* Assets.xcassets */,
 				CE47AB012AF9547B00D9BD7E /* SwiftUI_Bootcamp_2.entitlements */,
 				CE47AB022AF9547B00D9BD7E /* Preview Content */,
@@ -298,6 +301,14 @@
 				CECA53BD2B1113DA00F84CCF /* BackgroundThreadViewModel.swift */,
 			);
 			path = Threads;
+			sourceTree = "<group>";
+		};
+		CECC36ED2B1F084700CDE32F /* FileManager */ = {
+			isa = PBXGroup;
+			children = (
+				CECC36EE2B1F085E00CDE32F /* FileManagerBootcamp.swift */,
+			);
+			path = FileManager;
 			sourceTree = "<group>";
 		};
 		CEE782362B0D24BC00A60DE9 /* CoreDataRelationship */ = {
@@ -420,6 +431,7 @@
 				CE47AAFE2AF9547A00D9BD7E /* ContentView.swift in Sources */,
 				CECD002F2B026D3B00A8F020 /* ArrayBootcamp.swift in Sources */,
 				CE52D3632AFBE39400F9AFF4 /* RotationGestureBootcamp.swift in Sources */,
+				CECC36EF2B1F085E00CDE32F /* FileManagerBootcamp.swift in Sources */,
 				CECA53BE2B1113DA00F84CCF /* BackgroundThreadViewModel.swift in Sources */,
 				CE27D11F2B0DFB3600D94054 /* EmployeesView.swift in Sources */,
 				CE4AE8D72B134FF70063CE24 /* TypealiesBootcamp.swift in Sources */,

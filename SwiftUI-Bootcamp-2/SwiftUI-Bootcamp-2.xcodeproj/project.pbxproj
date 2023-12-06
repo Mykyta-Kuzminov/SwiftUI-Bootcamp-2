@@ -41,6 +41,7 @@
 		CEA1C0C12B06A4FD0096900E /* CoreDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA1C0C02B06A4FD0096900E /* CoreDataViewModel.swift */; };
 		CEA1C0C42B06A5100096900E /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEA1C0C22B06A5100096900E /* DataModel.xcdatamodeld */; };
 		CEA83AEA2B0D2DC2009BE024 /* BusinessesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA83AE92B0D2DC2009BE024 /* BusinessesView.swift */; };
+		CEBF4B122B20B3010051A524 /* NSCacheBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBF4B112B20B3010051A524 /* NSCacheBootcamp.swift */; };
 		CECA53BC2B1113BA00F84CCF /* BackgroundThreadBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA53BB2B1113BA00F84CCF /* BackgroundThreadBootcamp.swift */; };
 		CECA53BE2B1113DA00F84CCF /* BackgroundThreadViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA53BD2B1113DA00F84CCF /* BackgroundThreadViewModel.swift */; };
 		CECC36EF2B1F085E00CDE32F /* FileManagerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC36EE2B1F085E00CDE32F /* FileManagerBootcamp.swift */; };
@@ -96,6 +97,7 @@
 		CEA1C0C02B06A4FD0096900E /* CoreDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataViewModel.swift; sourceTree = "<group>"; };
 		CEA1C0C32B06A5100096900E /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		CEA83AE92B0D2DC2009BE024 /* BusinessesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessesView.swift; sourceTree = "<group>"; };
+		CEBF4B112B20B3010051A524 /* NSCacheBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSCacheBootcamp.swift; sourceTree = "<group>"; };
 		CECA53BB2B1113BA00F84CCF /* BackgroundThreadBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadBootcamp.swift; sourceTree = "<group>"; };
 		CECA53BD2B1113DA00F84CCF /* BackgroundThreadViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadViewModel.swift; sourceTree = "<group>"; };
 		CECC36EE2B1F085E00CDE32F /* FileManagerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerBootcamp.swift; sourceTree = "<group>"; };
@@ -240,6 +242,7 @@
 				CE13B7B02B17B3420085CE3C /* API */,
 				CEEF01912B1B67C4001010EC /* Timer */,
 				CECC36ED2B1F084700CDE32F /* FileManager */,
+				CEBF4B102B20B2E30051A524 /* NSCache */,
 				CE47AAFF2AF9547B00D9BD7E /* Assets.xcassets */,
 				CE47AB012AF9547B00D9BD7E /* SwiftUI_Bootcamp_2.entitlements */,
 				CE47AB022AF9547B00D9BD7E /* Preview Content */,
@@ -292,6 +295,14 @@
 				CE27D11E2B0DFB3500D94054 /* EmployeesView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		CEBF4B102B20B2E30051A524 /* NSCache */ = {
+			isa = PBXGroup;
+			children = (
+				CEBF4B112B20B3010051A524 /* NSCacheBootcamp.swift */,
+			);
+			path = NSCache;
 			sourceTree = "<group>";
 		};
 		CECA53BA2B11138600F84CCF /* Threads */ = {
@@ -431,6 +442,7 @@
 				CE47AAFE2AF9547A00D9BD7E /* ContentView.swift in Sources */,
 				CECD002F2B026D3B00A8F020 /* ArrayBootcamp.swift in Sources */,
 				CE52D3632AFBE39400F9AFF4 /* RotationGestureBootcamp.swift in Sources */,
+				CEBF4B122B20B3010051A524 /* NSCacheBootcamp.swift in Sources */,
 				CECC36EF2B1F085E00CDE32F /* FileManagerBootcamp.swift in Sources */,
 				CECA53BE2B1113DA00F84CCF /* BackgroundThreadViewModel.swift in Sources */,
 				CE27D11F2B0DFB3600D94054 /* EmployeesView.swift in Sources */,

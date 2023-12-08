@@ -16,7 +16,7 @@ class ImageLoadingViewModel: ObservableObject {
     
     var cancellables = Set<AnyCancellable>()
     
-    let manager = PhotoModelCacheManager.instance
+    let manager = PhotoModelFileManager.instance
     
     let urlString: String
     let keyString: String

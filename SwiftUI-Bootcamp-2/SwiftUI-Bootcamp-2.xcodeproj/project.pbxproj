@@ -12,6 +12,8 @@
 		CE13B7B22B17B3760085CE3C /* PostsListBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE13B7B12B17B3760085CE3C /* PostsListBootcamp.swift */; };
 		CE13B7B42B17B3940085CE3C /* PostsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE13B7B32B17B3940085CE3C /* PostsViewModel.swift */; };
 		CE13B7B62B17B3A40085CE3C /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE13B7B52B17B3A40085CE3C /* PostModel.swift */; };
+		CE1413142B2369E5004046DE /* PhotoModelFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1413132B2369E5004046DE /* PhotoModelFileManager.swift */; };
+		CE1413162B236A07004046DE /* PhotoModelCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1413152B236A07004046DE /* PhotoModelCacheManager.swift */; };
 		CE16E23E2B00DC3C004AFB40 /* NotificationsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE16E23D2B00DC3C004AFB40 /* NotificationsBootcamp.swift */; };
 		CE16E2402B00DC4B004AFB40 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE16E23F2B00DC4B004AFB40 /* NotificationManager.swift */; };
 		CE22F6642AFD4D3D002023AA /* ScrollViewReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE22F6632AFD4D3D002023AA /* ScrollViewReaderBootcamp.swift */; };
@@ -73,6 +75,8 @@
 		CE13B7B12B17B3760085CE3C /* PostsListBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsListBootcamp.swift; sourceTree = "<group>"; };
 		CE13B7B32B17B3940085CE3C /* PostsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewModel.swift; sourceTree = "<group>"; };
 		CE13B7B52B17B3A40085CE3C /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		CE1413132B2369E5004046DE /* PhotoModelFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModelFileManager.swift; sourceTree = "<group>"; };
+		CE1413152B236A07004046DE /* PhotoModelCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModelCacheManager.swift; sourceTree = "<group>"; };
 		CE16E23D2B00DC3C004AFB40 /* NotificationsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsBootcamp.swift; sourceTree = "<group>"; };
 		CE16E23F2B00DC4B004AFB40 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		CE22F6632AFD4D3D002023AA /* ScrollViewReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderBootcamp.swift; sourceTree = "<group>"; };
@@ -403,6 +407,8 @@
 			isa = PBXGroup;
 			children = (
 				CEF0F2122B22107B0051C4A4 /* PhotoModelDataService.swift */,
+				CE1413132B2369E5004046DE /* PhotoModelFileManager.swift */,
+				CE1413152B236A07004046DE /* PhotoModelCacheManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -499,6 +505,7 @@
 				CE22FEE92AFF8D8200009C4B /* SoundManager.swift in Sources */,
 				CE22FEEF2AFF981D00009C4B /* HapticsBootcamp.swift in Sources */,
 				CEE782382B0D24DD00A60DE9 /* CoreDataManager.swift in Sources */,
+				CE1413142B2369E5004046DE /* PhotoModelFileManager.swift in Sources */,
 				CE1214D92B14EFD800FAA025 /* CodableBootcamp.swift in Sources */,
 				CEF0F2172B221D3C0051C4A4 /* DownloadingImageView.swift in Sources */,
 				CEF0F2152B2219410051C4A4 /* DownloadingImagesRow.swift in Sources */,
@@ -519,6 +526,7 @@
 				CE2B78122B1CDC8300249047 /* SubscriberBootcamp.swift in Sources */,
 				CEA83AEA2B0D2DC2009BE024 /* BusinessesView.swift in Sources */,
 				CEEF01952B1B6A79001010EC /* SecondTimerBootcamp.swift in Sources */,
+				CE1413162B236A07004046DE /* PhotoModelCacheManager.swift in Sources */,
 				CEEF019B2B1B7272001010EC /* FifthTimerBootcamp.swift in Sources */,
 				CE4EA5312B18F14B001EC950 /* SecondPostsViewBootcamp.swift in Sources */,
 				CE315AD42B127D1C000A916D /* WeakSelfViewModel.swift in Sources */,

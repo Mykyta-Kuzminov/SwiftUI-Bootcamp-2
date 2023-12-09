@@ -67,6 +67,7 @@
 		CEF0F2152B2219410051C4A4 /* DownloadingImagesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0F2142B2219410051C4A4 /* DownloadingImagesRow.swift */; };
 		CEF0F2172B221D3C0051C4A4 /* DownloadingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0F2162B221D3C0051C4A4 /* DownloadingImageView.swift */; };
 		CEF0F2192B221D5D0051C4A4 /* ImageLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0F2182B221D5D0051C4A4 /* ImageLoadingViewModel.swift */; };
+		CEFDD83A2B249D1700C01DD2 /* DynamicTextBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDD8392B249D1700C01DD2 /* DynamicTextBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -132,6 +133,7 @@
 		CEF0F2142B2219410051C4A4 /* DownloadingImagesRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImagesRow.swift; sourceTree = "<group>"; };
 		CEF0F2162B221D3C0051C4A4 /* DownloadingImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImageView.swift; sourceTree = "<group>"; };
 		CEF0F2182B221D5D0051C4A4 /* ImageLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoadingViewModel.swift; sourceTree = "<group>"; };
+		CEFDD8392B249D1700C01DD2 /* DynamicTextBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTextBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -262,6 +264,7 @@
 				CECC36ED2B1F084700CDE32F /* FileManager */,
 				CEBF4B102B20B2E30051A524 /* NSCache */,
 				CEF0F2072B220FFF0051C4A4 /* DownloadingImages */,
+				CEFDD8382B249CF000C01DD2 /* Accessibility */,
 				CE47AAFF2AF9547B00D9BD7E /* Assets.xcassets */,
 				CE47AB012AF9547B00D9BD7E /* SwiftUI_Bootcamp_2.entitlements */,
 				CE47AB022AF9547B00D9BD7E /* Preview Content */,
@@ -413,6 +416,14 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		CEFDD8382B249CF000C01DD2 /* Accessibility */ = {
+			isa = PBXGroup;
+			children = (
+				CEFDD8392B249D1700C01DD2 /* DynamicTextBootcamp.swift */,
+			);
+			path = Accessibility;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -505,6 +516,7 @@
 				CE22FEE92AFF8D8200009C4B /* SoundManager.swift in Sources */,
 				CE22FEEF2AFF981D00009C4B /* HapticsBootcamp.swift in Sources */,
 				CEE782382B0D24DD00A60DE9 /* CoreDataManager.swift in Sources */,
+				CEFDD83A2B249D1700C01DD2 /* DynamicTextBootcamp.swift in Sources */,
 				CE1413142B2369E5004046DE /* PhotoModelFileManager.swift in Sources */,
 				CE1214D92B14EFD800FAA025 /* CodableBootcamp.swift in Sources */,
 				CEF0F2172B221D3C0051C4A4 /* DownloadingImageView.swift in Sources */,

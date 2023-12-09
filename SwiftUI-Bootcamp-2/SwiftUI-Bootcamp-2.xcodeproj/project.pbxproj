@@ -68,6 +68,7 @@
 		CEF0F2172B221D3C0051C4A4 /* DownloadingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0F2162B221D3C0051C4A4 /* DownloadingImageView.swift */; };
 		CEF0F2192B221D5D0051C4A4 /* ImageLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0F2182B221D5D0051C4A4 /* ImageLoadingViewModel.swift */; };
 		CEFDD83A2B249D1700C01DD2 /* DynamicTextBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDD8392B249D1700C01DD2 /* DynamicTextBootcamp.swift */; };
+		CEFDD83C2B24ADBF00C01DD2 /* DynamicColorBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDD83B2B24ADBF00C01DD2 /* DynamicColorBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -134,6 +135,7 @@
 		CEF0F2162B221D3C0051C4A4 /* DownloadingImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImageView.swift; sourceTree = "<group>"; };
 		CEF0F2182B221D5D0051C4A4 /* ImageLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoadingViewModel.swift; sourceTree = "<group>"; };
 		CEFDD8392B249D1700C01DD2 /* DynamicTextBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTextBootcamp.swift; sourceTree = "<group>"; };
+		CEFDD83B2B24ADBF00C01DD2 /* DynamicColorBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicColorBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -420,6 +422,7 @@
 			isa = PBXGroup;
 			children = (
 				CEFDD8392B249D1700C01DD2 /* DynamicTextBootcamp.swift */,
+				CEFDD83B2B24ADBF00C01DD2 /* DynamicColorBootcamp.swift */,
 			);
 			path = Accessibility;
 			sourceTree = "<group>";
@@ -552,6 +555,7 @@
 				CE3315392AFE6F6D00DB5E0F /* MaskBootcamp.swift in Sources */,
 				CE22F6672AFD5402002023AA /* GeometryReaderBootcamp.swift in Sources */,
 				CEF0F2112B2210650051C4A4 /* PhotoModel.swift in Sources */,
+				CEFDD83C2B24ADBF00C01DD2 /* DynamicColorBootcamp.swift in Sources */,
 				CE13B7B62B17B3A40085CE3C /* PostModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -43,6 +43,7 @@
 		CEA1C0C12B06A4FD0096900E /* CoreDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA1C0C02B06A4FD0096900E /* CoreDataViewModel.swift */; };
 		CEA1C0C42B06A5100096900E /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEA1C0C22B06A5100096900E /* DataModel.xcdatamodeld */; };
 		CEA83AEA2B0D2DC2009BE024 /* BusinessesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA83AE92B0D2DC2009BE024 /* BusinessesView.swift */; };
+		CEB4A1F72B28C24F008BB1B1 /* AlignmentGuidesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB4A1F62B28C24F008BB1B1 /* AlignmentGuidesBootcamp.swift */; };
 		CEBF4B122B20B3010051A524 /* NSCacheBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBF4B112B20B3010051A524 /* NSCacheBootcamp.swift */; };
 		CECA53BC2B1113BA00F84CCF /* BackgroundThreadBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA53BB2B1113BA00F84CCF /* BackgroundThreadBootcamp.swift */; };
 		CECA53BE2B1113DA00F84CCF /* BackgroundThreadViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA53BD2B1113DA00F84CCF /* BackgroundThreadViewModel.swift */; };
@@ -110,6 +111,7 @@
 		CEA1C0C02B06A4FD0096900E /* CoreDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataViewModel.swift; sourceTree = "<group>"; };
 		CEA1C0C32B06A5100096900E /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		CEA83AE92B0D2DC2009BE024 /* BusinessesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessesView.swift; sourceTree = "<group>"; };
+		CEB4A1F62B28C24F008BB1B1 /* AlignmentGuidesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentGuidesBootcamp.swift; sourceTree = "<group>"; };
 		CEBF4B112B20B3010051A524 /* NSCacheBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSCacheBootcamp.swift; sourceTree = "<group>"; };
 		CECA53BB2B1113BA00F84CCF /* BackgroundThreadBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadBootcamp.swift; sourceTree = "<group>"; };
 		CECA53BD2B1113DA00F84CCF /* BackgroundThreadViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadViewModel.swift; sourceTree = "<group>"; };
@@ -216,6 +218,7 @@
 				CE0B6B822B13A7D300367919 /* EscapingBootcamp.swift */,
 				CE1214D82B14EFD700FAA025 /* CodableBootcamp.swift */,
 				CE2B78112B1CDC8300249047 /* SubscriberBootcamp.swift */,
+				CEB4A1F62B28C24F008BB1B1 /* AlignmentGuidesBootcamp.swift */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -500,6 +503,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE22F6642AFD4D3D002023AA /* ScrollViewReaderBootcamp.swift in Sources */,
+				CEB4A1F72B28C24F008BB1B1 /* AlignmentGuidesBootcamp.swift in Sources */,
 				CEA1C0C42B06A5100096900E /* DataModel.xcdatamodeld in Sources */,
 				CEE7823F2B0D257500A60DE9 /* CoreDataRelationship.xcdatamodeld in Sources */,
 				CEA1C0C12B06A4FD0096900E /* CoreDataViewModel.swift in Sources */,
